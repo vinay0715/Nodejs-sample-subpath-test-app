@@ -1,0 +1,13 @@
+mkdir /foo
+git clone <path>
+apt-get update -y
+apt-get install -y npm nodejs procps
+npm install 
+node server.js &
+ps -ef
+
+####
+PATHS:
+/ -> helloworld
+/health -> healthy server
+/foo -> foo endpoint
